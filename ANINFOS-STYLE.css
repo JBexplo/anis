@@ -1,72 +1,172 @@
+header{
+    background-color: rgb(197, 32, 32);
+
+    text-align: center;
+    
+    width: auto;
+    height: auto;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+    border-top: 0px solid #000000;
+    border-bottom: 0px solid #000000;
+    border-right: 0em solid #000000;
+    border-left: 0em solid #000000;
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
 
 body{
     background-color: rgb(255, 255, 255);
-text-align: center;
-margin: 0;
-padding: 0;
 
+    text-align: center;
 
+    width: auto;
+    height: 975px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+    border-top: 0px solid #000000;
+    border-bottom: 0px solid #000000;
+    border-right: 4em solid #000000;
+    border-left: 4em solid #000000;
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
-header{
-background-color: rgb(197, 32, 32);
-margin-top:0px ;
-text-align: left;
-margin: 0;
-padding: 0;
-}
+
 
 footer{
-background-color: rgb(197, 32, 32);
+    background-color: rgb(86, 86, 86);
 
-text-align: left;
+    text-align: center;
+
+    width: auto;
+    height: 90px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+    border-top: 0px solid #000000;
+    border-bottom: 0px solid #000000;
+    border-right: 0em solid #000000;
+    border-left: 0em solid #000000;
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 
 }
-
-
-ul{
-/*text-align: center*/
-
-
-
-}
-
-
 
 
 
 .liste{
-
     display: block;
     width: 450px;
     margin: 0 auto;
 }
 
 
+
 .gaucher-centrer{
  text-align: left ;
-
-
 }
+
 
 
 .black{
 font-weight: 900;
+}
 
+
+
+.aucun_m.b.p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+    border-top: 0px solid #000000;
+    border-bottom: 0px solid #000000;
+    border-right: 0px solid #000000;
+    border-left: 0px solid #000000;
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 
 
 }
 
 
 
+.button{
+    background-color: rgb(18, 18, 255);
+
+    width: 34px;
+    height: 23px;
+
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-left: 3px solid #000000;
+    
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+
+    font-size: 13px;
+
+    border-radius: 4px;
+    
+    transition-duration: 0.5s;
+
+    box-shadow: 0px 4px 0px rgb(26, 26, 26);
+
+}   
+
+.button:hover{
+    background-color: rgb(0, 0, 126);
+}
+
+.button:active{
+    box-shadow:  0px 1px 0px 0px rgb(26, 26, 26);
+    transform: translateY(3px) 
+
+}
+
+
+
+.norb{
+    white-space: nowrap;
 
 
 
 
-
-
-
-
-
-
+}
 
